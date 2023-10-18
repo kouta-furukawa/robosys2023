@@ -1,8 +1,19 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText:2023 Kouta Furukawa s22C1115jf@s.chibakoudai.jp
+# SPDX-Lincense-Identifier: BSD-3-Clause
+
 import sys
 
 ans = 0
 fro line in sys.stdin:
-    ans += float(line)
+    try:
+	ans += int(line)
+    except:
+	ans += intfloat(line)
+
 
 print(ans)
+
+*このソフトウェアパッケージは、3条項BSDライセンスのっ元、再分布および使用が許可されます。
+*©　2022 Kouta furukawa
 
