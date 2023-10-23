@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopyrightText: 2023 Kouta Frukawa
 # SPDX-License-Identifier: BSD-3-Clause
 
@@ -11,11 +11,18 @@ res=0
 
 ### I/O TEST ###
 out=$(seq 5 | ./plus)
-
-[ "${out}" = 14 ] || ng ${LINENO}
+++ seq 5
+++ ./plus
++ out=15
+[ "${out}" = 15 ] || ng ${LINENO}
++'[' 15 = 15 ']'
 
 [ "$res" = 0 ] && echo OK
-exit $res
++'[' 0 = 0 ']'
++ echo OK
+OK
 
+exit $res
++exit 0
 
 
