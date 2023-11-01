@@ -15,7 +15,7 @@ res=0
 
 ### STRANGE INPUT ###
  out=$(echo あ | ./plus)
-  [ "$" = 1 ]       || ng ${LINENO}
+  [ "$?" = 1 ]       || ng ${LINENO}
   [ "${out}" = "" ] || ng ${LINENO}
 
  out=$(echo | ./plus) #空文字
