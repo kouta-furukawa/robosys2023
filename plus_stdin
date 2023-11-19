@@ -1,10 +1,14 @@
+#!/usr/bin/python3
+#SPDX-FileCopyrightText: 2023 Kouta Furukawa
+#SPDX-License-Identifier: BSD-3.0-Clause
+
 import sys
 
 ans = 0
 for line in sys.stdin:
 	try:
-    	    ans+=float(line)
+    	    ans += float(line)
 	except:
-	    ans+=float(line)
+	    ans += float(line)
 print(ans)
 
