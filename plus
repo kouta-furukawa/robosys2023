@@ -1,15 +1,15 @@
 #!/usr/bin/python3
-# SPDX-FileCopyrightText:2023 Kouta Furukawa s22C1115jf@s.chibakoudai.jp
-# SPDX-Lincense-Identifier: BSD-3-Clause
+#SPDX-FileCopyrightText: 2023 Kouta Furukawa
+#SPDX-License-Identifier: BSD-3.0-Clause
 
 import sys
 
 ans = 0
-fro line in sys.stdin:
-    try:
-	ans += int(line)
-    except:
-	ans += float(line)
-
+for line in sys.stdin:
+        try:
+            ans += int(line)
+        except:
+            ans += float(line)
 print(ans)
+
 
