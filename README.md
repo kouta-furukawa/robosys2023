@@ -60,5 +60,5 @@ Ubuntu 20.40 Windows
 ＊このソフトウェアパッケージは,3条項BSDライセンスの下,再配布および使用が許可されています.
 ＊このパッケージは、BSD由来のコード(©　2023 Kouta Furukawa)を利用しています.
 ＊このパッケージのコードは,下記のスライド(cc-BY-SA 4.0 by Ryuichi Ueda)のものを,本人の許可を得て自身の著作としたものです.
-    * [https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson3.md](https://github.com/ryuichiueda/my_slides/tree/master/robosys2022)
+    * [https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson4.md](https://github.com/ryuichiueda/my_slides/tree/master/robosys2022)
 ＊© 2023 Kouta Frukawa 
