@@ -26,7 +26,7 @@ cd robosys2023
 chmod +x plus  
 ./plus  
 
-#for example
+#for example  
 seq 5 | ./plus   
 (Output) 15  
 
