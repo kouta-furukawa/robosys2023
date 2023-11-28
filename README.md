@@ -3,7 +3,7 @@
 
 
 # plusコマンド
-[test](https://github.com/koutafurukawa/robosys2023/actions/workflows/test.yml/badge.svg)
+[test](https://github.com/kouta-furukawa/robosys2023/actions/workflows/test.yml/badge.svg)
 
 標準入力から読み込んだ数字を足す。
 
@@ -33,6 +33,9 @@ git add test.yml
 git commit -m "Add a coment"
 git log -n 1
 git push
+
+#使用できる環境
+Ubuntu 20.40 Windows 
 
 
 # Author
