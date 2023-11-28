@@ -8,15 +8,17 @@
 標準入力から読み込んだ数字を足す。
 
 # Requirement
- 
-"hoge"を動かすのに必要なライブラリなどを列挙する
- 
-* huga 3.5.2
-* hogehuga 1.0.2
-
+＊requirements.txt
 
 # Installation
- 
+sudo apt update
+sudo apt install python3
+sudo apt-get update
+sudo apt-get install coreutils
+sudo yum install coreutils
+sudo apt install python3-pip 
+cd /path/to/your/project
+pip3 install -r requirements.txt
 
 # Usage
 git clone <git@github.com:kouta-furukawa/robosys2023.git>
