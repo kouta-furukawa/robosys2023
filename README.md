@@ -5,17 +5,18 @@ Add numbers read from standard input
 
 
 # Installation
-* Python3.7 or higher is installed and Git is installed
-<Method>  
-
-$ git clone <git@github.com:kouta-furukawa/robosys2023.git>    
+* Python3.7 or higher is installed and Git is installed in your home  
+Method
+* Clone the following repository in your home   
+$ git clone <git@github.com:kouta-furukawa/robosys2023.git>  
+* Go to repository directory in your home  
 $ cd robosys2023  
 
 #Usage  
-* Granting execution privileges
-$ chmod +x plus  
+* Granting execution privileges  
+$ chmod +x plus    
 * Create a file or redirect and execute it     
-<for example>  
+* for example  
 $ seq 5 | ./plus     
 (Output) 15   
   
