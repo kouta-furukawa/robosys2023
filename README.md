@@ -1,7 +1,3 @@
-# name 
-ロボットシステム学の練習リポジトリ
-
-
 # plusコマンド
 ![test](https://github.com/kouta-furukawa/robosys2023/actions/workflows/test.yml/badge.svg)
 
@@ -9,40 +5,18 @@
 
 
 # Installation
-sudo apt update  
-sudo apt install python3  
-sudo apt-get update  
-sudo apt-get install coreutils  
-sudo yum install coreutils  
-
-# Usage
-git clone <git@github.com:kouta-furukawa/robosys2023.git>  
+* Python3.7 or higher is installed and Git is installed
+<Method>
+git clone <git@github.com:kouta-furukawa/robosys2023.git>    
 cd robosys2023  
+
+#Usage  
 chmod +x plus  
-./plus  
-
+* Create a file or redirect and execute it     
 ##for example  
-seq 5 | ./plus   
-(Output) 15  
-
-cd robosys2023/.github/workflows 
-git add test.yml  
-git commit -m "Add a coment"  
-git log -n 1  
-git push  
-
-#使用可能であった環境
-Ubuntu 20.04 on Windows 2004.2022.8.0
- 
-
-
-# Author
-* Kouta Furukawa  
-* 千葉工業大学未来　先進工学部　ロボティクス学科  
-* furuko1030@gmail.com  
-
-
-
+seq 5 | ./plus     
+(Output) 15   
+  
 ## 必要なソフトウェア
 * Python
   * テスト済み: 3.7〜3.10
