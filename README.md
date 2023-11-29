@@ -1,4 +1,4 @@
-# name (Windows10 robosys2023)
+# name 
 ロボットシステム学の練習リポジトリ
 
 
@@ -7,8 +7,6 @@
 
 標準入力から読み込んだ数字を足す。
 
-# Requirement
-＊requirements.txt
 
 # Installation
 sudo apt update  
@@ -16,9 +14,6 @@ sudo apt install python3
 sudo apt-get update  
 sudo apt-get install coreutils  
 sudo yum install coreutils  
-sudo apt install python3-pip   
-cd /path/to/your/project  
-pip3 install -r requirements.txt  
 
 # Usage
 git clone <git@github.com:kouta-furukawa/robosys2023.git>  
@@ -26,7 +21,7 @@ cd robosys2023
 chmod +x plus  
 ./plus  
 
-#for example  
+##for example  
 seq 5 | ./plus   
 (Output) 15  
 
@@ -53,12 +48,11 @@ Ubuntu 20.04 on Windows 2004.2022.8.0
   * テスト済み: 3.7〜3.10
 
 ## テスト環境
-* Ubuntu
-
+* Ubuntu 20.04 on Windows 2004.2022.8.0
 © 2023 Kouta Furukawa
 
 #LICENCE
-＊このソフトウェアパッケージは,3条項BSDライセンスの下,再配布および使用が許可されています.
+＊このソフトウェアパッケージは,3条項BSDライセンスの下,再配布および使用が許可されています.  
 ＊このパッケージのコードは,下記のスライド(cc-BY-SA 4.0 by Ryuichi Ueda)のものを,本人の許可を得て自身の著作としたものです.
 * [https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson4.md](https://github.com/ryuichiueda/my_slides/tree/master/robosys2022)
 ＊© 2023 Kouta Frukawa 
