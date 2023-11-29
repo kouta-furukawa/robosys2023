@@ -1,4 +1,4 @@
-# plusコマンド
+# plus command
 ![test](https://github.com/kouta-furukawa/robosys2023/actions/workflows/test.yml/badge.svg)
 
 Add numbers read from standard input  
@@ -8,8 +8,8 @@ Add numbers read from standard input
 * Python3.7 or higher is installed and Git is installed in your home  
 Method
 * Clone the following repository in your home   
-$ git clone <git@github.com:kouta-furukawa/robosys2023.git>  
-* Go to repository directory in your home  
+https://git@github.com:kouta-furukawa/robosys2023.git>  
+* Go to repository directory in your hoime  
 $ cd robosys2023  
 
 #Usage  
@@ -20,17 +20,18 @@ $ chmod +x plus
 $ seq 5 | ./plus     
 (Output) 15   
   
-## 必要なソフトウェア
+## Required software
 * Python
-  * テスト済み: 3.7〜3.10
+  * tested : 3.7〜3.10
 
-## テスト環境
+## testing environment
 * Ubuntu 20.04 on Windows 2004.2022.8.0
 © 2023 Kouta Furukawa
 
 
 # LICENCE
-＊このソフトウェアパッケージは,3条項BSDライセンスの下,再配布および使用が許可されています.  
-＊このパッケージのコードは,下記のスライド(cc-BY-SA 4.0 by Ryuichi Ueda)のものを,本人の許可を得て自身の著作としたものです.
-* [https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson4.md](https://github.com/ryuichiueda/my_slides/tree/master/robosys2022)
+* This software package may be redistributed and used under the 3-clause BSD License. 
+* The code for this package was adapted from the slide below (cc-BY-SA 4.0 by Ryuichi Ueda) with his permission.
+* [https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson5.md]
+* [https://github.com/ryuichiueda/my_slides/blob/master/robosys_2022/lesson7.md](https://github.com/ryuichiueda/my_slides/tree/master/robosys2022)
 ＊© 2023 Kouta Frukawa 
